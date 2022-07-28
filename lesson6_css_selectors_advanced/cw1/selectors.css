@@ -1,0 +1,27 @@
+li {
+  margin-bottom: 16px;
+}
+
+a[target='_blank'] {
+  border: 2px solid #000000;
+}
+
+a[href^='brolen'] {
+  border: 2px solid #ff0000;
+}
+
+a[href*='.com'] {
+  margin-left: 50px;
+}
+
+a[lang|='en'] {
+  font-size: 10px;
+}
+
+a[href*='www'] {
+  color: #008000;
+}
+
+a[title*='popular'] {
+  font-size: 24px;
+}
