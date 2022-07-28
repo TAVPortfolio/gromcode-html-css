@@ -6,7 +6,7 @@ a[target='_blank'] {
   border: 2px solid #000000;
 }
 
-a[href^='brolen'] {
+a[href^='broken'] {
   border: 2px solid #ff0000;
 }
 
