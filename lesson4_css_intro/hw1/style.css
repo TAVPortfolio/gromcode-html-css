@@ -3,5 +3,8 @@ div {
 }
 
 span {
+  width: 200px;
+  height: 100px;
+  background-color: #ffff00;
   display: block;
 }
