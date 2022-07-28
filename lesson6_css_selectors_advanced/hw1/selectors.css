@@ -2,11 +2,15 @@ img[alt='Pollution'] {
   border: 5px dashed #ff0000;
 }
 
-img[src='.jpg'] {
+img[src$='.jpg'] {
   margin-left: 50px;
 }
 
 li[data-description~='even'] {
+  background-color: #808080;
+}
+
+li[data-description*='even'] {
   font-size: 24px;
 }
 
