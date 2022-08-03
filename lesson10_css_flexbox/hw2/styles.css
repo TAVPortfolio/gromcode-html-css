@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 header {
   display: flex;
   justify-content: center;
@@ -5,14 +8,16 @@ header {
 }
 
 .articles-list {
-  flex-wrap: wrap;
   display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
 }
 
 .article {
-  flex-grow: 1;
+  background-color: #ffe4c4;
   margin: 8px;
   padding: 16px;
-  background-color: #ffe4c4;
   flex-basis: 300px;
+  flex-grow: 1;
+  /* min-width: 300px; */
 }
