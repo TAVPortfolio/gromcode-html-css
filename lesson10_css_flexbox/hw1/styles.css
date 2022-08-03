@@ -1,0 +1,24 @@
+.block {
+  height: 300px;
+  /* min-width: 100px; */
+  flex-grow: 1;
+}
+body {
+  display: flex;
+  width: 100%;
+}
+.block_red {
+  background-color: #ff0000;
+}
+.block_green {
+  background-color: #008000;
+}
+.block_blue {
+  background-color: #0000ff;
+}
+.block_yellow {
+  background-color: #ffff00;
+}
+.block_black {
+  background-color: #000000;
+}
