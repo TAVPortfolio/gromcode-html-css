@@ -4,7 +4,13 @@ header {
   align-items: center;
 }
 
+.articles-list {
+  flex-wrap: wrap;
+  display: flex;
+}
+
 .article {
+  flex-grow: 1;
   margin: 8px;
   padding: 16px;
   background-color: #ffe4c4;
