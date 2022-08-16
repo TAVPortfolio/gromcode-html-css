@@ -1,0 +1,15 @@
+.list {
+  font-size: 1.5em;
+  list-style-type: none;
+}
+
+.first {
+  text-decoration: overline red;
+}
+.second {
+  text-decoration: line-through;
+}
+
+.third {
+  text-decoration: underline green;
+}
