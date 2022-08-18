@@ -1,0 +1,12 @@
+.rectangle {
+  background-color: #8a2be2;
+}
+
+.text::first-letter {
+  font-size: 24px;
+  color: #008000;
+}
+
+.new {
+  color: #808080;
+}
