@@ -1,6 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
 .page {
   background-color: #ffe4c4;
-  box-sizing: border-box;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -47,7 +50,6 @@
   width: 100%;
   height: 2rem;
   background-color: #ff7f50;
-  border: none;
   color: white;
   margin-top: 16px;
   text-transform: uppercase;
