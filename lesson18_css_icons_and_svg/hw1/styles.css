@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.fa-solid {
+  display: inline-block;
+}
+
+.fa-battery-full {
+  font-size: 1rem;
+}
+
+.fa-battery-three-quarters {
+  font-size: 2rem;
+}
+
+.fa-battery-half {
+  font-size: 4rem;
+}
+
+.fa-battery-quarter {
+  font-size: 8rem;
+}
+
+.fa-battery-empty {
+  font-size: 16rem;
+}
