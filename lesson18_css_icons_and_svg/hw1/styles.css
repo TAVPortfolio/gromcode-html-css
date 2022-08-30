@@ -3,26 +3,22 @@
   justify-content: space-around;
 }
 
-.fa-solid {
-  display: inline-block;
-}
-
 .fa-battery-full {
-  font-size: 1rem;
+  font-size: 16px;
 }
 
 .fa-battery-three-quarters {
-  font-size: 2rem;
+  font-size: 32px;
 }
 
 .fa-battery-half {
-  font-size: 4rem;
+  font-size: 64px;
 }
 
 .fa-battery-quarter {
-  font-size: 8rem;
+  font-size: 128px;
 }
 
 .fa-battery-empty {
-  font-size: 16rem;
+  font-size: 256px;
 }
