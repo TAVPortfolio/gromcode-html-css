@@ -3,8 +3,8 @@ button {
   width: 200px;
   height: 50px;
   text-align: center;
-  background-color: coral;
-  color: white;
+  background-color: #ff7f50;
+  color: #ffffff;
   text-transform: uppercase;
   font-family: 'Courier New', Courier, monospace;
   font-weight: 700;
@@ -19,10 +19,12 @@ button {
   vertical-align: middle;
   width: 32px;
   height: 32px;
+  fill: #ffffff;
 }
 
-button:hover,
-.bird:hover {
-  color: darkcyan;
-  fill: darkcyan;
+button:hover {
+  color: #008b8b;
+}
+button:hover > .bird {
+  fill: #008000;
 }
