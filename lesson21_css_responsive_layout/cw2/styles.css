@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+.content {
+  height: 100vh;
+  display: flex;
+  width: 100vw;
+}
+
+.gallery {
+  width: 80%;
+  background-color: #fa5;
+  display: flex;
+}
+
+.image {
+  max-width: 100%;
+  margin: auto;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.ideas {
+  width: 20%;
+  background-color: #5af;
+  text-align: center;
+  text-overflow: ellipsis;
+}
+
+.idea {
+  line-height: 100vh;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 4px;
+  text-align: center;
+  vertical-align: middle;
+}
