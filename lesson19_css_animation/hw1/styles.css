@@ -30,11 +30,26 @@
 }
 
 @keyframes moving {
-  0% {
+  from {
     left: 0;
+    opacity: 1;
+  }
+
+  to {
+    left: 70px;
+  }
+}
+
+@keyframes blinking {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
   }
 
   100% {
-    left: 66px;
+    opacity: 0;
   }
 }
