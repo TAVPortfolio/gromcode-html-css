@@ -15,7 +15,7 @@
 }
 
 .spinner-text {
-  animation: blinking 2s infinite;
+  animation: blinking 2s infinite linear;
 }
 
 .rect {
@@ -24,7 +24,7 @@
   height: 4px;
   border-radius: 2px;
 
-  animation: blinking 2s infinite, moving 2s infinite alternate;
+  animation: blinking 2s infinite linear, moving 2s infinite alternate;
 }
 
 @keyframes moving {
