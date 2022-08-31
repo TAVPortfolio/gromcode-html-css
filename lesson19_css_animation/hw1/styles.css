@@ -12,6 +12,8 @@
   font-family: monospace;
   font-size: 1rem;
   text-transform: uppercase;
+  position: absolute;
+  display: inline-block;
 }
 
 .spinner-text {
@@ -23,16 +25,16 @@
   width: 10px;
   height: 4px;
   border-radius: 2px;
-
+  position: relative;
   animation: blinking 2s infinite linear, moving 2s infinite alternate;
 }
 
 @keyframes moving {
   0% {
-    margin-left: 0;
+    left: 0;
   }
 
   100% {
-    margin-left: 65px;
+    left: 100%;
   }
 }
