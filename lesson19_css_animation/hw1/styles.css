@@ -15,7 +15,7 @@
 }
 
 .spinner-text {
-  animation: blinking 2s infinite linear;
+  animation: blinking 2s infinite;
 }
 
 .rect {
