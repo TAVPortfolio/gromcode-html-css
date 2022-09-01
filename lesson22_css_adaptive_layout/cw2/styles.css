@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+.navigation {
+  background-color: #ff7f50;
+  flex-grow: 1;
+}
+
+.products-list {
+  background-color: #006400;
+  flex-grow: 1;
+}
+
+.news {
+  background-color: #0ff;
+  flex-grow: 1;
+}
+
+.text {
+  background-color: #f5f5dc;
+  padding: 8px;
+  border-radius: 4px;
+  text-transform: lowercase;
+  font-family: Verdana;
+  margin: auto;
+}
+
+.block {
+  display: flex;
+  min-height: 200px;
+}
+
+@media screen and (min-width: 600px) {
+  .container {
+    display: flex;
+    flex-grow: 2;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .section {
+    display: flex;
+  }
+}
