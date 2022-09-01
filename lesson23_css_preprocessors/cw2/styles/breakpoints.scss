@@ -30,9 +30,7 @@ $lg: 1200px;
 }
 
 @mixin orientatio {
-  @media screen and (orientation: landscape) {
-    .container {
-      flex-direction: flex;
-    }
+  @media screen and (orientation: portrait) {
+    @content;
   }
 }

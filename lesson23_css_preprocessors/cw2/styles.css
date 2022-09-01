@@ -31,9 +31,12 @@ body {
   }
 }
 
-@media screen and (orientation: landscape) {
+.container {
+  margin: auto;
+}
+@media screen and (orientation: portrait) {
   .container {
-    flex-direction: flex;
+    display: flex;
   }
 }
 

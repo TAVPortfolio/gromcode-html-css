@@ -29,4 +29,9 @@ body {
   }
 }
 
-@include orientatio;
+.container {
+  margin: auto;
+  @include orientatio {
+    display: flex;
+  }
+}
