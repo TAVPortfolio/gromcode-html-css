@@ -32,11 +32,12 @@ body {
 }
 
 .container {
+  display: flex;
   margin: auto;
 }
 @media screen and (orientation: portrait) {
   .container {
-    display: flex;
+    flex-direction: column;
   }
 }
 
